@@ -1,6 +1,6 @@
 body {
-    background-color: #ebebeb;
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 .heading__1 {
@@ -27,7 +27,8 @@ body {
     width: 50%;
     float: left;
     margin-top: 5%;
-    margin-left: 2%;
+    margin-left: 5%;
+    height: 100%;
 }
 
 .first__topic__paragraph {
@@ -37,11 +38,19 @@ body {
 }
 
 .first__topic__right {
-    margin: auto;
     width: 40%;
     float: left;
+    height: 100%;
 }
 
 .first__topic__right img {
     width: 100%;
+    margin-top: 1%;
+    vertical-align: middle;
+}
+
+.first__topic {
+    background-image: url("../images/top-banner.png");
+    background-repeat: no-repeat;
+    height: 30rem;
 }
