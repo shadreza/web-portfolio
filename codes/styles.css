@@ -1,3 +1,47 @@
 body {
     background-color: #ebebeb;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading__1 {
+    font-size: 35px;
+}
+
+.heading__2 {
+    font-size: 35px;
+}
+
+#my__name {
+    font-size: 40px;
+    font-family: 'Redressed', cursive;
+    color: #ee6f57;
+}
+
+#tag {
+    font-size: 25px;
+    color: #2d6187;
+}
+
+
+.first__topic__left {
+    width: 50%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+.first__topic__paragraph {
+    color: #31326f;
+    width: 80%;
+    justify-content: right;
+}
+
+.first__topic__right {
+    margin: auto;
+    width: 40%;
+    float: left;
+}
+
+.first__topic__right img {
+    width: 100%;
 }
